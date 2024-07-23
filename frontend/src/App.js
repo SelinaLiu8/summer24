@@ -8,10 +8,10 @@ import Home from './pages/Home'
 function App() {
   return (
     <>
-      <Header />
+      <Header/>
       <Routes>
-        <Route exact path="/" component={Home} />
-        <Route path="/login" component={<Login/>} />
+        <Route exact path="/" component={<Home/>} />
+        {/* <Route path="/login" component={<Login/>} /> */}
         {/* Add other routes here */}
       </Routes>
     </>
